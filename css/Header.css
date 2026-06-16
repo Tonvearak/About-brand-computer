@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.contianer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(59, 37, 37);
+    padding: 25px;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+}
+
+.contianer .Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: azure;
+
+}
+
+.contianer img {
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px rgb(153, 165, 177);
+}
+
+
+
+.contianer .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+
+
+}
+
+
+.contianer .Loding {
+    border: 2px solid rgb(116, 94, 94);
+    border-radius: 5px;
+    color: rgb(215, 222, 227);
+    background-color: bisque;
+    padding: 2px 5px;
+
+}
+
+.link1 {
+    position: fixed;
+    top: 120px;
+    background-color: rgb(28, 28, 174);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(175, 159, 139);
+    padding: 0px 5px;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+    background-color: antiquewhite;
+
+
+    .card {
+
+
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin: 50px;
+    }
+
+    .card h2 {
+        color: #0066ff;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .buttom {
+        color: black;
+        background-color: rgb(183, 173, 157);
+        padding: 0px 5px;
+        border-radius: 5px;
+        display: block;
+        margin-top: 5px;
+        box-shadow: 1px 1px 2px 2px rgb(153, 165, 177);
+    }
+
+    .buttom,
+    a:hover {
+        background-color: rgb(175, 159, 139);
+        padding: 0px 5px;
+    }
+
+    .about {
+
+        line-height: 1.6;
+        color: #555;
+        margin-top: 70px;
+    }
+
+
+    .about h2 {
+        color: #0066ff;
+
+
+    }
+
+    .contianer .Logo {
+        width: 20px;
+
+    }
